@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+body {
+  padding: 0;
+  margin: 1.2em;
+  height: 100%;
+  font-family: "radio canada big", sans-serif;
+}
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.container-top {
+  /*Incluye background-color para no ver el boxmodel
+  background-color: rgb(43, 226, 125);  */
+  display: flex;
+  gap: 1rem;
+}
+.myself {
+  background: rgb(13, 17, 23);
+  background: linear-gradient(354deg, rgba(13, 17, 23, 1) 45%, #222a37 100%);
+  border-radius: 2rem;
+  padding: 3rem;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+.myself-presentation {
+  width: 67%;
+  font-size: 1.8em;
+  color: #fcf7f7;
+}
+.myself-presentation h1 {
+  margin: 0;
+  font-weight: 700;
+}
+.myself-description {
+  width: 50%;
+  font-size: 1.5em;
+  color: #bfc1c5;
+  padding-left: .5rem;
+}
+.myself-description p {
+  font-weight: 100;
+  font-size: 0.7em;
+}
+.myself-picture {
+  width: 47%;
+  background-color: red;
+  border-radius: 2rem;
+}
+.container-footer {
+  /*
+  background-color: burlywood;
+  */
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.academic {
+  width: 50%;
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  background: rgb(13, 17, 23);
+  background: linear-gradient(
+    60deg,
+    rgba(13, 17, 23, 1) 45%,
+    rgba(34, 42, 55, 1) 100%
+  );
+  border-radius: 2rem;
+  color: white;
+}
+.academic-header {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-between;
+}
+.academic-header-description article {
+  margin-top: 2.5rem;
+}
+.academic-header-description article a {
+  color: #4493f8;
+  text-decoration: none;
+  font-weight: 500;
+}
+.academic-header-description article a:hover {
+  text-decoration: underline;
+}
+.academic-header-description article p {
+  margin-top: 0.6em;
+  width: 60%;
+}
+
+.academic-header h4 {
+  font-size: 2em;
+  font-weight: 600;
+  margin: 0;
+}
+.academic-header-description p {
+  font-size: 0.9em;
+  color: #8d96a0;
+  margin: 0;
+}
+.work-experience {
+  background-color: #0a66c2;
+  width: 40%;
+  padding: 1.7em;
+  border-radius: 2rem;
+  padding-top: 3rem;
+  padding-left: 3rem;
+  display: flex;
+  gap: 6rem;
+  flex-direction: column;
+}
+.work-experience-title {
+  display: flex;
+  justify-content: space-between;
+}
+.work-experience h4 {
+  font-size: 2em;
+  font-weight: 600;
+  margin: 0;
+  color: white;
+}
+.work-experience-reload {
+  display: flex;
+  justify-content: center;
+}
+.work-experience-reload svg {
+  animation: rotacion 3s infinite linear;
+}
+@keyframes rotacion {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.stack {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  width: 100%;
+  flex-direction: row;
+}
+.stack-title {
+  display: flex;
+  justify-self: center;
+  text-align: center;
+  font-size: 1.6em;
+  padding: 1rem;
+  color: white;
+  background-color: #0f1922;
+  border-radius: 1.5rem;
+  width: 15%;
+  padding: 1.7rem;
+}
+.stack-title h4 {
+  margin: 0%;
+  font-weight: 600;
+  font-size: 1.3em;
+}
+.stack-item-1 {
+  background-color: #d1714b;
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.5rem;
+}
+.stack-item-2 {
+  background-color: #4d91b1;
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.5rem;
+}
+.stack-item-3 {
+  background-color: #252423;
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.5rem;
+}
+.stack-item-4 {
+  background-color: #6f8fcc;
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.5rem;
+}
+.stack-item-5 {
+  background-color: #1763de;
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.5rem;
+}
