@@ -20,8 +20,7 @@ body {
   gap: 1rem;
 }
 .myself {
-  background: rgb(13, 17, 23);
-  background: linear-gradient(354deg, rgba(13, 17, 23, 1) 45%, #222a37 100%);
+  background: linear-gradient(91deg, rgba(13, 17, 23, 1) 60%, #9ca051 100%);
   border-radius: 2rem;
   padding: 3rem;
   width: 90%;
@@ -41,15 +40,18 @@ body {
   width: 50%;
   font-size: 1.5em;
   color: #bfc1c5;
-  padding-left: .5rem;
+  padding-left: 0.5rem;
 }
 .myself-description p {
   font-weight: 100;
   font-size: 0.7em;
 }
 .myself-picture {
-  width: 47%;
-  background-color: red;
+  width: 32%;
+  border-radius: 2rem;
+}
+.myself-picture img {
+  width: 100%;
   border-radius: 2rem;
 }
 .container-footer {
