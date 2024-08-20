@@ -208,3 +208,31 @@ body {
   justify-content: center;
   border-radius: 1.5rem;
 }
+
+.list{
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+.listtitle{
+  font-size: 1.6em;
+  color: white;
+  background-color: #0f1922;
+  border-radius: 1.5rem;
+  padding: 1.7rem;
+  width: 10%;
+  text-align: center;
+}
+.listli{
+  background-color: #3ecf9f;
+  width: 60%;
+  display: flex;
+  border-radius: 1.5rem;
+  list-style: none;
+}
+.listli li{
+  display: inline;
+  padding: 1rem;
+  font-size: 1.6em;
+}
